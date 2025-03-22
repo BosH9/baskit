@@ -1,5 +1,5 @@
 {
-  "name": "org",
+  "name": "baskit",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "includedScripts": [],
   "projectType": "application",
@@ -11,7 +11,7 @@
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/org",
+        "outputPath": "dist/baskit",
         "index": "./src/index.html",
         "browser": "./src/main.ts",
         "polyfills": ["zone.js"],
@@ -54,10 +54,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "org:build:production"
+          "buildTarget": "baskit:build:production"
         },
         "development": {
-          "buildTarget": "org:build:development"
+          "buildTarget": "baskit:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -65,7 +65,7 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "org:build"
+        "buildTarget": "baskit:build"
       }
     },
     "lint": {
@@ -84,8 +84,8 @@
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "org:build",
-        "staticFilePath": "dist/org/browser",
+        "buildTarget": "baskit:build",
+        "staticFilePath": "dist/baskit/browser",
         "spa": true
       }
     }
