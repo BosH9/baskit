@@ -1,8 +1,8 @@
 export default {
   displayName: 'baskit',
-  preset: './jest.preset.js',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/baskit',
+  coverageDirectory: '../../coverage/baskit',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
