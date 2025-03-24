@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@baskit/api": ["libs/shared/api/src/index.ts"],
+      "@baskit/data-models": ["libs/shared/data-models/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
