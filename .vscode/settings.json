@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "BASKIT"
-    ]
+    ],
+    "tailwindCSS.experimental.configFile": "apps/baskit/src/styles.scss"
 }
