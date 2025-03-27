@@ -1,1 +1,9 @@
-<p>slider works!</p>
+<div>
+    <!-- TODO: cutom navigation buttons with custom position-->
+    <p-carousel [value]="images" [numVisible]="1" [numScroll]="1" [circular]="true" autoplayInterval="3000"
+        showIndicators="false">
+        <ng-template let-image #item>
+            <p-image src="https://dummyimage.com/{{image.source}}" alt="Image" />
+        </ng-template>
+    </p-carousel>
+</div>

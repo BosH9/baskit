@@ -1,1 +1,4 @@
-<p>searchbar works!</p>
+<form [formGroup]="formGroup">
+    <p-autocomplete formControlName="selectedItems" [suggestions]="items" (completeMethod)="search($event)"
+        field="search" class="w-full" fluid />
+</form>
