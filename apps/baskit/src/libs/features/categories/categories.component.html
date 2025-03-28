@@ -1,1 +1,14 @@
-<p>categories works!</p>
+<div class="card flex overflow-x-auto gap-2.5 mt-5 mx-10">
+    @for(category of categories; track category)
+    {
+
+    <p-card [style]="{ width: '12rem', overflow: 'hidden' }">
+        <ng-template #header>
+            <img alt="Card" class="w-full rounded-lg" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" />
+        </ng-template>
+        <ng-template #title>
+            <div class="text-center">{{category.category}}</div>
+        </ng-template>
+    </p-card>
+    }
+</div>

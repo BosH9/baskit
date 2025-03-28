@@ -1,7 +1,7 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SliderComponent } from '../slider/slider.component';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CategoriesComponent } from '../categories/categories.component';
+import { SliderComponent } from '../slider/slider.component';
 
 @Component({
   selector: 'baskit-home',

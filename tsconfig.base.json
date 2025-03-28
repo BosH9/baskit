@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@baskit/api": ["libs/shared/api/src/index.ts"],
-      "@baskit/data-models": ["libs/shared/data-models/src/index.ts"]
+      "@baskit/data-models": ["libs/shared/data-models/src/index.ts"],
+      "@baskit/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

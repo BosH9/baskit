@@ -14,7 +14,14 @@ export const appRoutes: Route[] = [
           import('../libs/features/home/home.component').then(
             (m) => m.HomeComponent
           ),
-      }]
-      
+      },
+      {
+        path: 'products',
+        loadComponent: () =>
+          import('../libs/features/products/products.component').then(
+            (m) => m.ProductsComponent
+          ),
+      },
+    ],
   },
 ];

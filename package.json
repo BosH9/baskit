@@ -25,6 +25,7 @@
     "@ngneat/elf-persist-state": "^1.2.1",
     "@ngneat/elf-state-history": "^1.4.0",
     "@primeng/themes": "^19.0.10",
+    "@supabase/supabase-js": "^2.49.3",
     "@tailwindcss/postcss": "^4.0.15",
     "postcss": "^8.5.3",
     "primeicons": "^7.0.0",
@@ -74,5 +75,10 @@
   },
   "nx": {
     "includedScripts": []
+  },
+  "overrides": {
+    "@supabase/supabase-js": {
+      "@supabase/gotrue-js": "2.61.0"
+    }
   }
 }
